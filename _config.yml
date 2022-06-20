@@ -30,7 +30,7 @@ twitter_username: hotfenggo
 github_username:  hotfeng
 
 # Build settings
-theme: jekyll-theme-minimal
+theme: minima
 plugins:
   - jekyll-feed
 
