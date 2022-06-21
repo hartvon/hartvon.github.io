@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Setup Github Pages With Jekyll"
+title:  "Setup Github Pages with Jekyll"
 categories: Configuration
 ---
 
