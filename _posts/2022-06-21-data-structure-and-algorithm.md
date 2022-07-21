@@ -2,6 +2,7 @@
 layout: post
 title: "Data Structure and Algorithm"
 categories: DSA
+toc: true
 ---
 
 # 贪心算法
@@ -240,3 +241,33 @@ categories: DSA
 - 思路：在有序子数组中继续使用二分查找搜索目标值
 
 - 实现：将中位数 `nums[mid]` 与首元素 `nums[lo]` 进行比较，若 `nums[mid]` 与数组首位元素均相等，则前后各压缩一次数组；若前半部分有序且目标值在其中，则深入前半部分继续查找；否则深入后半部分继续查找。
+
+[540. 有序数组中的单一元素](https://leetcode.cn/problems/single-element-in-a-sorted-array/)
+
+- 思路：根据中位数的奇偶性进行相邻元素判断从而实现二分查找
+
+- 实现：若 `mid` 为奇数，则将 `mid` 索引处的元素与上一元素相比；若 `mid` 为偶数，则将 `mid` 索引处的元素与下一元素相比；若比较的结果相等，则深入后半部分查找，否则深入前半部分继续查找。
+
+[287. 寻找重复数](https://leetcode.cn/problems/find-the-duplicate-number/)
+
+- 思路：根据不大于 `mid` 的元素数量进行二分查找
+
+- 实现：使用 `cnt` 表示不大于 `mid` 的元素数量，若 `cnt <= mid` 则深入后半部分查找，否则深入前半部分继续查找。
+
+[268. 丢失的数字](https://leetcode.cn/problems/missing-number/)
+
+- 思路：总和减去元素和
+
+- 实现：使用变量 `total` 表示 `[0, n]` 的总和，`sum` 表示数组 `nums` 中的元素和，则 `total - sum` 即为丢失的数字。
+
+[222. 完全二叉树的节点个数](https://leetcode.cn/problems/count-complete-tree-nodes/)
+
+- 思路：递归求取左子树和右子树上的节点数
+
+- 实现：首先求取左子树和右子树上的层数，若二者相等，则左子树为满二叉树，返回左子树节点数并递归求取右子树；若二者不相等，则右子树为满二叉树，返回右子树节点数并递归求取左子树。
+
+[4. 寻找两个正序数组的中位数](https://leetcode.cn/problems/median-of-two-sorted-arrays/)
+
+- 思路：根据两数组总长度的奇偶性寻找数组第 `k` 个元素
+
+- 实现：使用 `idx1` 和 `idx2` 表示两数组的起始索引，`newIdx1` 和 `newIdx2` 表示两数组第 `k/2` 个元素的索引。若 `newIdx1` 处的元素值不大于 `newIdx2` 处的元素值，则 `k` 减去 `newIdx1` 前的元素数，将 `idx1` 更新为 `newIdx1 + 1`；否则 `k` 减去 `newIdx2` 前的元素数，将 `idx2` 更新为 `newIdx2 + 1`。
