@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Solution of Leetcode Contest"
-categories: contest
+categories: leetcode
 toc: true
 ---
 

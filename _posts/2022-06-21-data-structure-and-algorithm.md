@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Data Structure and Algorithm"
-categories: DSA
+categories: leetcode
 toc: true
 ---
 
@@ -271,3 +271,9 @@ toc: true
 - 思路：根据两数组总长度的奇偶性寻找数组第 `k` 个元素
 
 - 实现：使用 `idx1` 和 `idx2` 表示两数组的起始索引，`newIdx1` 和 `newIdx2` 表示两数组第 `k/2` 个元素的索引。若 `newIdx1` 处的元素值不大于 `newIdx2` 处的元素值，则 `k` 减去 `newIdx1` 前的元素数，将 `idx1` 更新为 `newIdx1 + 1`；否则 `k` 减去 `newIdx2` 前的元素数，将 `idx2` 更新为 `newIdx2 + 1`。
+
+# Others
+
+[9. 回文数](https://leetcode.cn/problems/palindrome-number/)
+
+- 思路：将原始数字进行翻转后与原数字进行对比
