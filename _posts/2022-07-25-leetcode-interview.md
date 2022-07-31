@@ -22,6 +22,8 @@ toc: true
 
 # 题目
 
+## 开始之前
+
 [136. 只出现一次的数字](https://leetcode.cn/problems/single-number/)
 
 - 思路：使用「异或」运算
@@ -41,6 +43,8 @@ toc: true
 [887. 鸡蛋掉落](https://leetcode.cn/problems/super-egg-drop/)
 
 - 思路：hard
+
+## 字符串
 
 [125. 验证回文串](https://leetcode.cn/problems/valid-palindrome/)
 
@@ -77,3 +81,45 @@ toc: true
 [344. 反转字符串](https://leetcode.cn/problems/reverse-string/)
 
 - 思路：对撞指针。
+
+## 数组
+
+[152. 乘积最大子数组](https://leetcode.cn/problems/maximum-product-subarray/)
+
+- 思路：动态规划，`maxPrefix[i]` 表示以索引 `i` 结尾的子数组最大乘积，`minPrefix[i]`表示以索引 `i` 结尾的子数组最小乘积。
+
+[169. 多数元素](https://leetcode.cn/problems/majority-element/)
+
+- 思路：打擂台。
+
+[189. 轮转数组](https://leetcode.cn/problems/rotate-array/)
+
+- 思路：三次翻转。
+
+[217. 存在重复元素](https://leetcode.cn/problems/contains-duplicate/)
+
+- 思路：哈希表。
+
+[283. 移动零](https://leetcode.cn/problems/move-zeroes/)
+
+- 思路：双指针，将非零元素移动至开头并后移双指针。
+
+[384. 打乱数组](https://leetcode.cn/problems/shuffle-an-array/)
+
+- 思路：交换 `nums[i]` 和 `nums[i + rand() % (n-i)]` 实现打乱数组。
+
+[350. 两个数组的交集 II](https://leetcode.cn/problems/intersection-of-two-arrays-ii/)
+
+- 思路：哈希表，存储元素及其出现次数。
+
+[334. 递增的三元子序列](https://leetcode.cn/problems/increasing-triplet-subsequence/)
+
+- 思路：贪心，使得 `first` 及 `second` 较小使得更容易找到三元组。
+
+[240. 搜索二维矩阵 II](https://leetcode.cn/problems/search-a-2d-matrix-ii/)
+
+- 思路：双指针或者二分查找（将数组展平）。
+
+[238. 除自身以外数组的乘积](https://leetcode.cn/problems/product-of-array-except-self/)
+
+- 思路：一次遍历，每次计算索引 `i` 处的前缀积和 `n-i-1` 处的后缀积。
