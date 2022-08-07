@@ -123,3 +123,45 @@ toc: true
 [238. 除自身以外数组的乘积](https://leetcode.cn/problems/product-of-array-except-self/)
 
 - 思路：一次遍历，每次计算索引 `i` 处的前缀积和 `n-i-1` 处的后缀积。
+
+## 堆、栈与队列
+
+[155. 最小栈](https://leetcode.cn/problems/min-stack/)
+
+- 思路：维护两个栈，一个保存当前元素，一个保存当前最小元素。
+
+[215. 数组中的第K个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array/)
+
+- 思路：最大堆排序或快速选择。
+
+[295. 数据流的中位数](https://leetcode.cn/problems/find-median-from-data-stream/)
+
+- 思路：使用两个优先级队列（小根堆和大根堆）模拟整个有序列表。
+
+[378. 有序矩阵中第 K 小的元素](https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/)
+
+- 思路：使用优先级队列（小根堆）存储矩阵中的点，根据行索引搜索得到第k小的值。
+
+[347. 前 K 个高频元素](https://leetcode.cn/problems/top-k-frequent-elements/)
+
+- 思路：使用优先级队列（大根堆）存储 `pair<int, int>` 元素，记录每个元素出现的次数。
+
+[239. 滑动窗口最大值](https://leetcode.cn/problems/sliding-window-maximum/)
+
+- 思路：使用优先级队列（大根堆）保存当前窗口内的最大值及其在原数组内的索引。
+
+[224. 基本计算器](https://leetcode.cn/problems/basic-calculator/)
+
+- 思路：使用一个 `stack` 保存每个左括号前的符号，如遇正号则不变号，如符号则变号，如遇数字则乘以符号标志后加到结果中。
+
+[227. 基本计算器 II](https://leetcode.cn/problems/basic-calculator-ii/)
+
+- 思路：使用一个 `vector` 保存所有整数，使用 `preSign` 记录上一次出现的符号。根据符号的不同对当前整数进行不同处理。
+
+[341. 扁平化嵌套列表迭代器](https://leetcode.cn/problems/flatten-nested-list-iterator/)
+
+- 思路：使用一个 `stack` 逆序保存扁平化列表中的元素，对于 `hasNext()`：栈顶元素为整数时直接返回 `true`，为列表时则将其展平为元素并逆序放入栈中。
+
+[150. 逆波兰表达式求值](https://leetcode.cn/problems/evaluate-reverse-polish-notation/)
+
+- 思路：使用 `stack` 保存列表中的每个数，遇到符号时则依次弹出两个数进行计算并将结果再次压入栈中。
