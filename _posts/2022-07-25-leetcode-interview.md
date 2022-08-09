@@ -166,3 +166,37 @@ toc: true
 [150. 逆波兰表达式求值](https://leetcode.cn/problems/evaluate-reverse-polish-notation/)
 
 - 思路：使用 `stack` 保存列表中的每个数，遇到符号时则依次弹出两个数进行计算并将结果再次压入栈中。
+
+## 链表
+
+[138. 复制带随机指针的链表](https://leetcode.cn/problems/copy-list-with-random-pointer/)
+
+- 思路：使用哈希表存储旧表节点及其对应的新表节点，并依据旧表结点中的 `next` 和 `random` 构造新表节点中的对应 `next` 和 `random`。
+
+[141. 环形链表](https://leetcode.cn/problems/linked-list-cycle/)
+
+- 思路：快慢指针结合 `do...while()`。
+
+[148. 排序链表](https://leetcode.cn/problems/sort-list/)
+
+- 思路：归并排序，首先将原链表根据中点一分为二，并递归进行拆分操作，而后将子链表回溯合并即可。
+
+[160. 相交链表](https://leetcode.cn/problems/intersection-of-two-linked-lists/)
+
+- 思路：双指针，各自遍历 `list1 + list2`，相遇后即为首个相交节点。
+
+[206. 反转链表](https://leetcode.cn/problems/reverse-linked-list/)
+
+- 思路：更改`prev`、`curr`、`next`。
+
+[234. 回文链表](https://leetcode.cn/problems/palindrome-linked-list/)
+
+- 思路：翻转后半部分链表后，比较前后两部分子链表节点值是否一致。
+
+[237. 删除链表中的节点](https://leetcode.cn/problems/delete-node-in-a-linked-list/)
+
+- 思路：将后一节点前移覆盖当前节点，随后删除该后一节点。
+
+[328. 奇偶链表](https://leetcode.cn/problems/odd-even-linked-list/)
+
+- 思路：双指针，`odd->next = even->next`，`even->next = odd->next`。
