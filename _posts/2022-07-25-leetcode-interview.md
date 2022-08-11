@@ -200,3 +200,31 @@ toc: true
 [328. 奇偶链表](https://leetcode.cn/problems/odd-even-linked-list/)
 
 - 思路：双指针，`odd->next = even->next`，`even->next = odd->next`。
+
+## 哈希与映射
+
+[171. Excel 表列序号](https://leetcode.cn/problems/excel-sheet-column-number/)
+
+- 思路：26进制转换
+
+[454. 四数相加 II](https://leetcode.cn/problems/4sum-ii/)
+
+- 思路：使用哈希map存储前两个数组之间元素和及其出现的次数，然后针对后两个数组之间元素和，判断其相反数是否出现在哈希map中。
+
+[380. O(1) 时间插入、删除和获取随机元素](https://leetcode.cn/problems/insert-delete-getrandom-o1/)
+
+- 思路：使用线性表存储每个元素，使用哈希map存储元素及其在线性表中的下标。
+
+## 树
+
+[230. 二叉搜索树中第K小的元素](https://leetcode.cn/problems/kth-smallest-element-in-a-bst/)
+
+- 思路：使用迭代版中序遍历，当遍历到第k个元素时返回即可。
+
+[236. 二叉树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/)
+
+- 思路：使用哈希map存储每个节点及其父节点，然后节点 `p` 开始向上递归，并记录访问过的节点，在 `q` 向上递归的过程中如遇到 `p` 访问过的节点即为最近公共祖先。
+
+[297. 二叉树的序列化与反序列化](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/)
+
+- 思路：使用 `dfs` 将节点序列化为字符串，使用 `istringstream` 存储序列化的结果，并递归进行二叉树的构造。
