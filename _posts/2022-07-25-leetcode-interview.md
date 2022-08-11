@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Solution of DSA in Interview "
+title: "Solution of leetcode in Interview "
 categories: leetcode
 toc: true
 ---
