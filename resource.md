@@ -17,6 +17,10 @@ permalink: /resource/
 
 - https://www.geeksforgeeks.org/time-complexity-and-space-complexity/
 
+Visualization:
+
+- https://visualgo.net/en
+
 # Tools
 ### CMake/make
 
@@ -42,3 +46,7 @@ permalink: /resource/
 ### Monthly
 
 - https://hellogithub.com/
+
+# Others
+
+- https://www.namechef.co/cn/
