@@ -15,23 +15,23 @@ permalink: /resource/
 
 ## Algorithm
 
-- https://www.geeksforgeeks.org/time-complexity-and-space-complexity/
+- https://www.geeksforgeeks.org/time-complexity-and-space-complexity
 
 Visualization:
 
 - https://visualgo.net/en
 
 # Tools
+
 ### CMake/make
 
 - https://github.com/ttroy50/cmake-examples
-- https://makefiletutorial.com/
+- https://makefiletutorial.com
 
-# Reading
 
-## Blog
+# Blog
 
-### Networking
+## Networking
 
 - https://www.ruanyifeng.com/blog/2012/05/internet_protocol_suite_part_i.html
 
@@ -41,12 +41,13 @@ Visualization:
 
 ### Weekly
 
-- https://ruanyifeng.com/blog/
+- https://ruanyifeng.com/blog
 
 ### Monthly
 
-- https://hellogithub.com/
+- https://hellogithub.com
 
 # Others
 
-- https://www.namechef.co/cn/
+- 取个好名：https://www.namechef.co/cn/
+- 中文文案排版指北：https://github.com/sparanoid/chinese-copywriting-guidelines
