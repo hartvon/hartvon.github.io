@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Note of TinyWebServer"
+title: "TinyWebServer"
 categories: networking
 toc: true
 ---
@@ -42,5 +42,3 @@ $ sudo ./server port  # Running with SUDO due to `sudo mysql`
 
 > https://www.geeksforgeeks.org/understanding-extern-keyword-in-c/
 > https://cplusplus.com/forum/general/212303/#msg992731
-
-- 
