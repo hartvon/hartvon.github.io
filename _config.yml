@@ -29,6 +29,12 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hotfenggo
 github_username: hartvon
 
+markdown: CommonMarkGhPages
+input: GFM
+commonmark:
+  options: ["SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
+
 # Build settings
 theme: minima
 plugins:
