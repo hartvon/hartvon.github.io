@@ -27,6 +27,9 @@ Visualization:
 
 - https://github.com/ttroy50/cmake-examples
 - https://makefiletutorial.com
+- https://seisman.github.io/how-to-write-makefile/
+- https://www.ruanyifeng.com/blog/2015/02/make.html
+- https://www.cs.colby.edu/maxwell/courses/tutorials/maketutor
 
 ### Debug
 
