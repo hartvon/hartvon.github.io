@@ -25,3 +25,17 @@ toc: true
 - 思路：记录剪裁后的元素及其索引号并对齐进行排序
 
 - 实现：遍历每一个query，使用 `vector<pair<string, int>>` 记录对原字符串剪裁后得到的字符串及其原索引，对此 vector 进行排序，保存 vector 中第 k 个 `pair` 的 `second`。
+
+## 第 311 场 (2022-09-18)
+
+[6180. 最小偶倍数](https://leetcode.cn/problems/smallest-even-multiple/)
+
+- 思路：模拟。当 `n` 为奇数时返回 `2*n`，当 `n` 为偶数时返回 `n`。
+
+[6181. 最长的字母序连续子字符串的长度](https://leetcode.cn/problems/length-of-the-longest-alphabetical-continuous-substring/)
+
+- 思路：滑动窗口。当 `s[i-1]+1 == s[i]` 时增大窗口，否则重置窗口。
+
+[6182. 反转二叉树的奇数层](https://leetcode.cn/problems/reverse-odd-levels-of-binary-tree/)
+
+- 思路：dfs。传入 `root` 节点的左右孩子节点，防止重复反转节点值。
