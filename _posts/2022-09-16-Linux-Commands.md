@@ -28,10 +28,10 @@ toc: true
 - `ll -h`: 'human', show file size in intuitive status.
 - `cat / more / less / head / tail`
 - `> / >>`: Redirect(Override / Append) output.
+- `file/stat <file>`: Show file status.
 
 ## Find items
 
 - `find <path> [-name/type/size/maxdepth/mindepth] <file>`
 - `locate <file> [-i/n/r] <path>`
 - `grep <content> [-r/i/n] <file>`
-
