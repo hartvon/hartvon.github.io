@@ -42,6 +42,7 @@ Visualization:
 - https://seisman.github.io/how-to-write-makefile/
 - https://www.ruanyifeng.com/blog/2015/02/make.html
 - https://www.cs.colby.edu/maxwell/courses/tutorials/maketutor
+- https://blog.fatedier.com/2014/09/08/learn-to-write-makefile-01/
 
 ## Debug
 
