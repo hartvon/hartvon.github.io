@@ -18,6 +18,18 @@ Visualization:
 
 -----------------------------------------------------------------
 
+# Computer architecture
+
+## CSAPP
+- https://dreamanddead.github.io/CSAPP-3e-Solutions/
+- https://wdxtub.com/categories/CSAPP/
+
+## Low level
+- https://github.com/nhivp/Awesome-Embedded
+- https://github.com/gurugio/lowlevelprogramming-university
+
+-----------------------------------------------------------------
+
 # Computer Network
 ## Blog
 - https://www.ruanyifeng.com/blog/2012/05/internet_protocol_suite_part_i.html
@@ -28,8 +40,17 @@ Visualization:
 ## Linux sites
 - https://www.tecmint.com/
 - https://linux.cn/
+- https://linuxhint.com/
 
 -----------------------------------------------------------------
+
+# Unix Programming
+
+## Sites:
+- https://www.softprayog.in/
+
+-----------------------------------------------------------------
+
 # Tools
 ## Build
 **CMake**
