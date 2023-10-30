@@ -10,3 +10,4 @@ permalink: /mood/
 - 2022.08.07：haoleizhendehaolei
 - 2022.08.11：buleizhendebuleihhh
 - 2023.03.21: imcomingbackwithfullpower
+- 2023.10.30: xingshengyuyankaishizilv
