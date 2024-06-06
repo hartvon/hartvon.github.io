@@ -5,9 +5,9 @@ categories: Tools
 toc: true
 ---
 
-# CMake
+## CMake
 
-# Makefile
+## Makefile
 
 > make是一个根据指定的 Shell 命令进行构建的工具。
 >

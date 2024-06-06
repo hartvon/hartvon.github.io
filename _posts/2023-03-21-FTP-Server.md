@@ -5,7 +5,7 @@ categories: Projects
 toc: true
 ---
 
-# Running
+## Running
 
 - Terminal
   - `ftp <host> <port>`

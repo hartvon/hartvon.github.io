@@ -5,8 +5,8 @@ categories: leetcode
 toc: true
 ---
 
-# Leetcode 周赛
-## 第 302 场 (2022-07-17)
+## Leetcode 周赛
+### 第 302 场 (2022-07-17)
 
 [6120. 数组能形成多少数对](https://leetcode.cn/problems/maximum-number-of-pairs-in-array/)
 
@@ -26,7 +26,7 @@ toc: true
 
 - 实现：遍历每一个query，使用 `vector<pair<string, int>>` 记录对原字符串剪裁后得到的字符串及其原索引，对此 vector 进行排序，保存 vector 中第 k 个 `pair` 的 `second`。
 
-## 第 311 场 (2022-09-18)
+### 第 311 场 (2022-09-18)
 
 [6180. 最小偶倍数](https://leetcode.cn/problems/smallest-even-multiple/)
 

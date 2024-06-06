@@ -5,12 +5,12 @@ categories: Tools
 toc: true
 ---
 
-# Shortcuts
+## Shortcuts
 
 - `ctrl + a/e`: Move to line begin/end.
 - `ctrl + u/k`: Delete context before/behind cursor.
 
-# Chaining Operators
+## Chaining Operators
 
 - `&`: 同时在后台执行多个命令
 - `;`: 顺序执行多个命令
@@ -23,7 +23,7 @@ toc: true
 - `()`: 让括号内的命令优先执行
 - `\`: 将命令拆分成多行
 
-# File Management
+## File Management
 
 - `ll -h`: 'human', show file size in intuitive status.
 - `cat / more / less / head / tail`

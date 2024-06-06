@@ -14,16 +14,16 @@ toc: true
 - 字符串：字典树、后缀树
 
 
-# 算法 - Algorithms
+## 算法 - Algorithms
 - 排序算法：快速排序、归并排序、计数排序
 - 搜索算法：回溯、递归、剪枝技巧
 - 图论：最短路、最小生成树、网络流建模
 - 动态规划：背包问题、最长子序列、计数问题
 - 基础技巧：分治、倍增、二分、贪心
 
-# 题目
+## 题目
 
-## 开始之前
+### 开始之前
 
 [136. 只出现一次的数字](https://leetcode.cn/problems/single-number/)
 
@@ -45,7 +45,7 @@ toc: true
 
 - 思路：hard
 
-## 字符串
+### 字符串
 
 [125. 验证回文串](https://leetcode.cn/problems/valid-palindrome/)
 
@@ -83,7 +83,7 @@ toc: true
 
 - 思路：对撞指针。
 
-## 数组
+### 数组
 
 [152. 乘积最大子数组](https://leetcode.cn/problems/maximum-product-subarray/)
 
@@ -125,7 +125,7 @@ toc: true
 
 - 思路：一次遍历，每次计算索引 `i` 处的前缀积和 `n-i-1` 处的后缀积。
 
-## 堆、栈与队列
+### 堆、栈与队列
 
 [155. 最小栈](https://leetcode.cn/problems/min-stack/)
 
@@ -167,7 +167,7 @@ toc: true
 
 - 思路：使用 `stack` 保存列表中的每个数，遇到符号时则依次弹出两个数进行计算并将结果再次压入栈中。
 
-## 链表
+### 链表
 
 [138. 复制带随机指针的链表](https://leetcode.cn/problems/copy-list-with-random-pointer/)
 
@@ -201,7 +201,7 @@ toc: true
 
 - 思路：双指针，`odd->next = even->next`，`even->next = odd->next`。
 
-## 哈希与映射
+### 哈希与映射
 
 [171. Excel 表列序号](https://leetcode.cn/problems/excel-sheet-column-number/)
 
@@ -215,7 +215,7 @@ toc: true
 
 - 思路：使用线性表存储每个元素，使用哈希map存储元素及其在线性表中的下标。
 
-## 树
+### 树
 
 [230. 二叉搜索树中第K小的元素](https://leetcode.cn/problems/kth-smallest-element-in-a-bst/)
 

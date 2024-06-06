@@ -4,7 +4,7 @@ title: "Notes of CPP"
 categories: cpp
 ---
 
-# Object-Oriented Programming
+## Object-Oriented Programming
 
 **三大特性**
 
@@ -41,8 +41,8 @@ categories: cpp
 - 基类向派生类不存在隐式类型转换
 - 派生类向基类的类型转换可能会由于访问受限而变得不可行
 
-# Others
+## Others
 - 一条声明语句的目的是令程序知晓某个名字的存在以及该名字表示一个什么样的实体
 - 直接初始化与拷贝初始化
 - 友元关系不能传递也不能继承
-- 
+-
